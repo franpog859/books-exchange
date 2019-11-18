@@ -1,0 +1,17 @@
+{
+  "name": "backend-books-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
