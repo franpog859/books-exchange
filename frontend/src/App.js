@@ -8,7 +8,7 @@ export class App extends React.Component {
   };
 
   componentDidMount() {
-    fetch("http://localhost:3001/hello")
+    fetch("https://books-exchange-backend.herokuapp.com/hello")
       .then(res => res.json())
       .then(json => {
         this.setState({ message: json.message })

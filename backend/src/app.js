@@ -1,7 +1,11 @@
 // Server setup
 const express = require('express')
 const app = express()
-const port = 3001
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3001;
+}
 
 // MongoDB setup
 const databaseUsername = process.env.DATABASE_USERNAME
